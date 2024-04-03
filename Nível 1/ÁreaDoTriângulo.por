@@ -22,7 +22,8 @@ programa
 		
 
 		
-	}	
+	}
+	
 
 }
 /* $$$ Portugol Studio $$$ 
