@@ -5,9 +5,9 @@ const prompt = require("prompt-sync")()
 
 let valor = 1
 let maior = valor
-let menor = valor
+let menor = 10000000000
 
-for  (let contagem = 1; contagem <= 5; contagem++){
+for  (let contagem = 1; contagem <= 50; contagem++){
     valor = prompt("Digite um valor: ")
     valor = parseInt(valor)
     if (maior < valor){
