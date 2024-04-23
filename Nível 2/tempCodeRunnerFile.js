@@ -1,1 +1,1 @@
-let precoPaoUnidade = 10 
+meses = ["jan", "nov", "june", "october", "august"]
