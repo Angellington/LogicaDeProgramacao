@@ -13,5 +13,17 @@ let posNomes = nomes[3]
 console.log(posNomes)
 /*Depois, indique que a posição é 3 e que nesta posição deve ser armazenado o nome Amanda. */
 
+// Nova variável que troca o valor = método splice (start, método index of procurar o 'Batata), trocar apenas 1, por amanda
+let NovoNomes = nomes.splice(nomes.indexOf('Batata'), 1, 'Amanda')
+console.log(NovoNomes)
+
+console.log(nomes)
 
 
+// Wait a easy method?
+let lista = ['Isabela', 'Camila', 'Angel', 'Batata', 'Meiko']
+
+let pos = 3
+lista[pos] = 'Amanda'
+
+console.log(lista)
