@@ -1,0 +1,15 @@
+Saída de Dados
+console.log()
+print()
+
+
+Entrada de Dados
+importar a Biblioteca prompt
+[const prompt = require("prompt-sync")]
+input()
+
+
+Operadores Lógicos
+and - &&
+or - ||
+not - !
