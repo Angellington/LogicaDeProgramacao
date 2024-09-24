@@ -9,33 +9,6 @@ const color = require('colors');
 // 3 - After, choose the function for operator
 // 4 - If you want to calculate again
 
-// Functions
-
-
-// while (true){
-//     console.log('|----SIMPLE-CALCULATOR----|');
-//     console.log('Tab(1) - Addiction \nTab(2) - Subtraction\nTab(3) - Multiply\nTab(4) - Division');
-//     console.log("--------------------------")
-//     let option = Number(prompt('Select Option: '))
-//     console.log(' ')
-//     if(option === 0 || option < 0 || option > 5 || isNaN(option)){
-//         console.clear()
-//         console.log('Sorry, please insert a valid option'.red)
-//     } else {
-//         break
-//     }
-// }
-
-
-//          num fun num fun parentes
-// console.log('2 + 2 - 2 - (2 x 3)')
-// console.log('')
-
-// Quero algo que me faça adicionar numero em uma função (vai ser um array)
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 console.log('|--SIMPLE-CALCULATOR--|');
 console.log('|-|--1---2---3---|-+-||');
 console.log('|-|--4---5---6---|---||');
